@@ -19,7 +19,7 @@ int main()
 	int x;
 
 	for(x=0;x<12;x++)
-		printf("%s\n",months[x]);
+		printf("%p\n",months[x]);
 
 	return(0);
 }
